@@ -17,11 +17,28 @@
 
 # misc
 .DS_Store
+<<<<<<< HEAD
 .env*
+=======
+*.pem
+>>>>>>> 4c85be61b7823c3a9bf1aa9dfdc3515bb102bd06
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 .vercel
+=======
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+>>>>>>> 4c85be61b7823c3a9bf1aa9dfdc3515bb102bd06
